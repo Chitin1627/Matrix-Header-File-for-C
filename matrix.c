@@ -3,22 +3,13 @@
 #include "transpose.c"
 #include "determinant.c"
 #include "if_upper.c"
-
+#include "matrix_input.c"
 /*
 JUST TO TRY OUT THE FUNCTIONS WE WROTE.
 */
 int main() {
     int arr1[3][3], arr2[3][3], arr3[3][3];
-    for(int i=0;i<3;i++) {
-        for(int j=0;j<3;j++) {
-            scanf("%d", &arr1[i][j]);
-        }
-    }
-    // for(int i=0;i<3;i++) {
-    //     for(int j=0;j<3;j++) {
-    //         scanf("%d", &arr2[i][j]);
-    //     }
-    // }
+    MatrixInput(arr1);
     //MatrixAdd(arr1,arr2,arr3);
     //MatrixTranspose(arr1, arr3);
 
