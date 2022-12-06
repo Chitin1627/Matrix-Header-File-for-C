@@ -1,4 +1,6 @@
 .vscode/launch.json
 .vscode/tasks.json
+*.exe
 add.exe
 matrix.exe
+.vscode/settings.json
