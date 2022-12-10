@@ -1,6 +1,12 @@
 #include<stdio.h>
 
 void MatrixCof(int arr[3][3], int fin[3][3]) {
+    /*
+	Takes two matrices as parameter. Calculates the cofactor of
+    the first matrix and stores it in the second matrix.
+    DOESN'T RETURN ANY VALUE.
+    */
+    
     int m11,m12,m13,m21,m22,m23,m31,m32,m33;
     m11 = arr[1][1]*arr[2][2] - arr[1][2]*arr[2][1];
     m12 = -(arr[1][0]*arr[2][2] - arr[1][2]*arr[2][0]);
