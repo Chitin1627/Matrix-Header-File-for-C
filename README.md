@@ -10,6 +10,7 @@ subtraction
 cofactor
 if diagonal
 if lower triangular
+inverse
 
 
 PRATY
