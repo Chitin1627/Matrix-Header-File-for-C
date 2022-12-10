@@ -25,5 +25,9 @@ void adjoint(int arr[3][3], int fin[3][3]) {
     temp[2][0] = m31;
     temp[2][1] = m32;
     temp[2][2] = m33;
-    MatrixTranspose(temp, fin);
+    for(int i=0;i<3;i++) {
+        for(int j=0;j<3;j++) {
+            fin[i][j] = temp[j][i];
+        }
+    }
 }
