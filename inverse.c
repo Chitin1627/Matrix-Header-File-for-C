@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include "adjoint.c"
-#include "determinant.c"
+
 
 void inverse(int arr[3][3], float fin[3][3]){
 	/*

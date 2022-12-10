@@ -9,3 +9,4 @@
 #include "multiplication.c"
 #include "sub.c"
 #include "transpose.c"
+#include "inverse.c"

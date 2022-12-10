@@ -2,7 +2,7 @@
 
 void MatrixMul(int arr1[3][3], int arr2[3][3], int fin[3][3]) {
     /*
-    Takes three matrices as parameter. Calculates the protduc of
+    Takes three matrices as parameter. Calculates the product of
     the first two matrices and stores it in the third matrix.
     DOESN'T RETURN ANY VALUE.
     */
