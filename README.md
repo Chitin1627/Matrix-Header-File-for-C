@@ -1,22 +1,7 @@
 # Matrix_Header_C
-Creating a C header file for matrix operations
-Every single file will have USER DEFINED FUNCTION to perform the task. DONT TAKE INPUT INSIDE THE FUNCTIONS, use parameters instead.
+A header file for perform 3x3 matrix operations.
 
+Download all the files and store it to the "include" file of your compiler.
 
-s1834
+In your code, write #include<Matrix.h> and all the functions will be ready-to-use.
 
-matrix multiplication
-subtraction
-cofactor
-if diagonal
-if lower triangular
-inverse
-
-
-PRATY
-
-addition
-transpose
-determinant
-if upper triangular
-matrix input
